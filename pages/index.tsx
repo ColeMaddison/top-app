@@ -1,7 +1,8 @@
+import React from "react";
+import { Htag } from "../components/Htag/Htag";
 
 export default function Home(): JSX.Element {
 	return (
-		<div>
-		</div>
+		<Htag tag='h1' >Текст</Htag>
 	);
 }
