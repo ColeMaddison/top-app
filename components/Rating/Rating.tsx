@@ -1,5 +1,5 @@
 import { useEffect, useState, KeyboardEvent } from 'react';
-import * as styles from './Rating.module.css';
+import styles from './Rating.module.css';
 import { RatingProps } from './Rating.props';
 import cn from 'classnames';
 
@@ -58,9 +58,7 @@ export const Rating = ({ rating, setRating, isEditable = false, ...props }: Rati
 
     useEffect(() => {
         constructRating(rating);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [rating]);
-    
 
     return (
         <div

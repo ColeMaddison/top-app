@@ -1,4 +1,4 @@
-import * as styles from './P.module.css';
+import styles from './P.module.css';
 import { PProps } from './P.props';
 import cn from 'classnames';
 

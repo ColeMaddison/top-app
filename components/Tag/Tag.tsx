@@ -1,4 +1,4 @@
-import * as styles from './Tag.module.css';
+import styles from './Tag.module.css';
 import { TagProps } from './Tag.props';
 import cn from 'classnames';
 
@@ -6,7 +6,6 @@ export const Tag = ({ children, size = 's', href, color = 'ghost', className, ..
     return (
         <div
             {...props}
-            // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
             className={cn(styles.tag, className, {
                 [styles.s]: size === 's',
                 [styles.m]: size === 'm',

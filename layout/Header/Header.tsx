@@ -1,4 +1,4 @@
-import * as styles from './Sidebar.module.css';
+import * as styles from './Header.module.css';
 import { HeaderProps } from './Header.props';
 import cn from 'classnames';
 
